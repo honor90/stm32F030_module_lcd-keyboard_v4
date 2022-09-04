@@ -1,0 +1,166 @@
+Dependencies for Project 'module_lcd&keyboard', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f030.s)(0x526A163C)(--cpu Cortex-M0 -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.0.0\Device\Include--list .\startup_stm32f030.lst --xref -o .\startup_stm32f030.o --depend .\startup_stm32f030.d)
+F (.\User\src\main.c)(0x54F9CEE9)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\CMSIS\Device\ST\STM32F0xx\Include -I.\CMSIS\Device\ST\STM32F0xx\Source\Templates -I.\User\src -I.\User\inc -I.\STM32F0xx_StdPeriph_Driver\inc -I.\STM32F0xx_StdPeriph_Driver\src -I.\STM32F0xx_StdPeriph_Driver-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.0.0\Device\Include-DSTM32F0XX_MDF -o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (.\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x53B7F17A)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C56A2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x52849E5A)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA9BB4)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C56A2)
+I (.\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x52D7C8AC)
+I (.\STM32F0xx_StdPeriph_Driver\stm32f0xx_conf.h)(0x52D7C82E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_can.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crs.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x52D7C88E)
+I (.\User\inc\LCD.h)(0x54CBB9CC)
+I (.\User\inc\hd44780_driver.h)(0x54F9CBE8)
+I (.\User\inc\usart.h)(0x54BFAFB2)
+F (.\User\src\usart.c)(0x54CBCAD0)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\CMSIS\Device\ST\STM32F0xx\Include -I.\CMSIS\Device\ST\STM32F0xx\Source\Templates -I.\User\src -I.\User\inc -I.\STM32F0xx_StdPeriph_Driver\inc -I.\STM32F0xx_StdPeriph_Driver\src -I.\STM32F0xx_StdPeriph_Driver-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.0.0\Device\Include-DSTM32F0XX_MDF -o .\usart.o --omf_browse .\usart.crf --depend .\usart.d)
+I (.\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x53B7F17A)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C56A2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x52849E5A)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA9BB4)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C56A2)
+I (.\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x52D7C8AC)
+I (.\STM32F0xx_StdPeriph_Driver\stm32f0xx_conf.h)(0x52D7C82E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_can.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crs.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x52D7C88E)
+I (.\User\inc\usart.h)(0x54BFAFB2)
+I (.\User\inc\LCD.h)(0x54CBB9CC)
+I (.\User\inc\GPIO_keyboard.h)(0x54BFC986)
+F (.\User\src\hd44780_driver.c)(0x54F9D0CE)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\CMSIS\Device\ST\STM32F0xx\Include -I.\CMSIS\Device\ST\STM32F0xx\Source\Templates -I.\User\src -I.\User\inc -I.\STM32F0xx_StdPeriph_Driver\inc -I.\STM32F0xx_StdPeriph_Driver\src -I.\STM32F0xx_StdPeriph_Driver-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.0.0\Device\Include-DSTM32F0XX_MDF -o .\hd44780_driver.o --omf_browse .\hd44780_driver.crf --depend .\hd44780_driver.d)
+I (.\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x53B7F17A)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C56A2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x52849E5A)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA9BB4)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C56A2)
+I (.\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x52D7C8AC)
+I (.\STM32F0xx_StdPeriph_Driver\stm32f0xx_conf.h)(0x52D7C82E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_can.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crs.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x52D7C88E)
+I (.\User\inc\hd44780_driver.h)(0x54F9CBE8)
+F (.\User\src\LCD.c)(0x54CBC70E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\CMSIS\Device\ST\STM32F0xx\Include -I.\CMSIS\Device\ST\STM32F0xx\Source\Templates -I.\User\src -I.\User\inc -I.\STM32F0xx_StdPeriph_Driver\inc -I.\STM32F0xx_StdPeriph_Driver\src -I.\STM32F0xx_StdPeriph_Driver-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.0.0\Device\Include-DSTM32F0XX_MDF -o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (.\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x53B7F17A)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C56A2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x52849E5A)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA9BB4)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C56A2)
+I (.\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x52D7C8AC)
+I (.\STM32F0xx_StdPeriph_Driver\stm32f0xx_conf.h)(0x52D7C82E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_can.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crs.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x52D7C88E)
+I (.\User\inc\LCD.h)(0x54CBB9CC)
+I (.\User\inc\hd44780_driver.h)(0x54F9CBE8)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x52849E54)
+F (.\CMSIS\Device\ST\STM32F0xx\Source\Templates\system_stm32f0xx.c)(0x5309E90A)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\CMSIS\Device\ST\STM32F0xx\Include -I.\CMSIS\Device\ST\STM32F0xx\Source\Templates -I.\User\src -I.\User\inc -I.\STM32F0xx_StdPeriph_Driver\inc -I.\STM32F0xx_StdPeriph_Driver\src -I.\STM32F0xx_StdPeriph_Driver-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.0.0\Device\Include-DSTM32F0XX_MDF -o .\system_stm32f0xx.o --omf_browse .\system_stm32f0xx.crf --depend .\system_stm32f0xx.d)
+I (.\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x53B7F17A)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C56A2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x52849E5A)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA9BB4)
+I (C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C56A2)
+I (.\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x52D7C8AC)
+I (.\STM32F0xx_StdPeriph_Driver\stm32f0xx_conf.h)(0x52D7C82E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_can.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crs.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x52D7C88E)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x52D7C88E)
+F (.\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_gpio.c)(0x52D7C88E)()
+F (.\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_rcc.c)(0x52D7C88E)()
+F (.\STM32F0xx_StdPeriph_Driver\stm32f0xx_conf.h)(0x52D7C82E)()
+F (.\Описание команд.txt)(0x54CB79A6)()
